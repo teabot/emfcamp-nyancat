@@ -129,22 +129,22 @@ void setup() {
 void loop() {
   post_frame(); //Push the current color frame to the strip
 
-
   while(1){ //Do nothing
-  for(int r = 0 ; r < STRIP_LENGTH ; r++)
-    strip_colors[r] = 0;
+    for(int r = 0 ; r < STRIP_LENGTH ; r++) {
+      strip_colors[r] = 0;
+    }
     post_frame();
     delay(14000);
 
-  for (x = 0; x < NYAN_WIDTH; x++) {
-    advance_frame();
-    post_frame(); //Push the current color frame to the strip
+    for (x = 0; x < NYAN_WIDTH; x++) {
+      advance_frame();
+      post_frame(); //Push the current color frame to the strip
 
-    digitalWrite(ledPin, HIGH);   // set the LED on
-    delay(32);                  // wait for a second
-    digitalWrite(ledPin, LOW);    // set the LED off
-    delay(32);                  // wait for a second
-  }
+      digitalWrite(ledPin, HIGH);   // set the LED on
+      delay(32);                    // wait for a second
+      digitalWrite(ledPin, LOW);    // set the LED off
+      delay(32);                      // wait for a second
+    }
   }
 }
 
@@ -153,15 +153,10 @@ void advance_frame() {
   for(int y = 0 ; y < NYAN_HEIGHT ; y++) {
     int pixelIndex = (x * NYAN_HEIGHT) + y;
     int colourIndex = NYAN_DATA[pixelIndex];
- //   int colourIndex = pgm_read_word_near(&NYAN_DATA[pixelIndex]);
     strip_colors[y] = NYAN_COLOURS[colourIndex];
     
   }
-//Serial.println(x);
-  //x++;
-  //if (x >= NYAN_WIDTH) {
-  //  x = 0;
-  //}
+  //Serial.println(x);
 }
 
 //Takes the current strip color array and pushes it out
