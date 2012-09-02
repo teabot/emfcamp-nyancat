@@ -17,7 +17,7 @@ you can find cheaper alternatives on eBay - search for 'Dream Color' or 'WS2801'
 is pretty simple and is covered in SparkFun's [example code](http://www.sparkfun.com/datasheets/Components/LED/LED_Strip_Example.pde
  "SparkFun = Addressable RGB strip example code").
  
-The Arduino was powered by an iPhone charger hooked up to a long main extension lead. 
+The Arduino was powered by an iPhone charger hooked up to a long mains extension lead. 
  
 # Code
 
