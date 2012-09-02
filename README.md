@@ -2,7 +2,7 @@
 
 At the 2012 [EMF Camp](https://www.emfcamp.org/ "EMF Camp home page") I wanted a quick project
 that I could build in a day and that might produce something visually appealing and recognizable.
-As there is a lot or outdoor space at the camp I liked the idea of trying some
+As there is a lot or outdoor space at the camp, I thought it might be a good opportunity to try out some
 [light painting](http://en.wikipedia.org/wiki/Light_painting "Light painting - Wikipedia") - and
 [Nyancat](http://www.youtube.com/watch?v=QH2-TGUlwu4 "Nyancat - YouTube") seemed an obvious
 subject. The final result of the project is shown here:
