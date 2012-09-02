@@ -23,8 +23,8 @@ The Arduino was powered by an iPhone charger hooked up to a long mains extension
 
 The code is based on [SparkFun's example](http://www.sparkfun.com/datasheets/Components/LED/LED_Strip_Example.pde
  "SparkFun = Addressable RGB strip example code") and uses the [Arduiniana Flash library](http://arduiniana.org/libraries/Flash/
-  "Arduiniana - Flash library") to store and retrieve the image data from the Arduino's flash memory - it's too large to
- fit into RAM).
+  "Arduiniana - Flash library") to store and retrieve the image data from the Arduino's flash memory - the image is too large to
+ fit into RAM.
 
 There is also a Java program that takes a [Nyancat PNG file](https://github.com/teabot/emfcamp-nyancat/blob/master/nyan_pixel.png) and produces some Arduino code that contains an indexed image in array form.
 This generated code should just be copied and pasted into the Arduino sketch.
